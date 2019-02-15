@@ -3,19 +3,16 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-  
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/main.css">
     <title>repl.it</title>
   </head>
   <body>
-    <nav class= 'nave-container'>      
-        <div classs='item-nave'>START BOOTSTRAP</div> 
-        <div class='item-nave2'>
-          <div class='nave-flex'>PORTIFOLIO</div>
-          <div class='nave-flex'>ABOUT</div>
-          <div class='nave-flex'>CONTACT</div>       
-          
+    <nav class= 'nav-container'>      
+        <div classs='nav-item'>START BOOTSTRAP</div> 
+        <div class='nav-list'>
+          <div class='nav-list'>PORTIFOLIO</div>
+          <div class='nav-list'>ABOUT</div>
+          <div class='nav-list'>CONTACT</div>       
         </div>       
          
     </nav>
@@ -44,17 +41,26 @@
         customization. Whether you're a student looking to showcase your work, a professional looking to attract clients,
         or a graphic artist looking to share your projects, this template is the perfect starting point!
       </P>
-      <input type="button" class='btn-download' value="Download Now">  
+    </section > 
 
-    </section>  
-      <h1 class='contact-h1'> CONTACT-ME</h1>   
-      <form class='form-contact' >         
-        <textarea placeholder="Name"  rows="2" cols="48" maxlength="100"></textarea>
-        <textarea placeholder="Email Address"  rows="2" cols="48" maxlength="100"></textarea>
-        <textarea placeholder="Phone Number"  rows="2" cols="48" maxlength="100"></textarea>
-        <textarea placeholder="Message"  rows="2" cols="48" maxlength="100"></textarea>
-        <input type="button" class = 'btn-send' value="Send">       
-      </form>    
+    <section class='container-btn'>
+      <form >
+         <input type="button"  class='btn-download' value="Download Now">        
+       </form>
+    </section>
+     
+     
+    <section class='container-contact'>
+        <h1 class='contact-h1'> CONTACT-ME</h1>   
+        <form class='form-contact' >  
+          <input class='input-text'placeholder="Name" type="text">   
+          <input class='input-text' placeholder="Email Address" type="text">  
+          <input class='input-text'placeholder="Phone Number" type="text">
+          <textarea class='input-text' placeholder='Message' cols="30" rows="30"></textarea> 
+          <input type="button" class = 'btn-send' value="Send">       
+        </form> 
+    </section>
+         
     
       <section class='container-address'>
         <div class='block-addres'>
@@ -63,11 +69,17 @@
         </div>
         <div class='block-addres'>
           <h1 class= 'address-h1'>AROUND THE WEB</h1>
-          <p class='address-p'>imagens</p> 
-        </div>   
+            <div class='icons'>
+             <img src="assets\images\icons\facebook.png" alt="">
+             <img src="assets\images\icons\google.png" alt="">
+             <img src="assets\images\icons\twitter.png" alt="">
+             <img src="assets\images\icons\google.png" alt="">
+             <img src="assets\images\icons\globo.png" alt="">
+            </div>  
+        </div>
         <div class='block-addres'>
-           <h1 class= 'address-h1'>ABOUT FREELANCER</h1> 
-           <p class='address-p'>Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap.</p>
+          <h1 class= 'address-h1'>ABOUT FREELANCER</h1> 
+          <p class='address-p'>Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap.</p>
         </div> 
   
     </section>
