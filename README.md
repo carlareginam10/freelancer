@@ -11,9 +11,12 @@ O objetivo foi criar uma réplica estática do site **Freelancer**  conforme exe
 
 ## Estrutura
 
-* O index.html` contém a estrutura HTML 
+* O `index.html` contém a estrutura HTML 
 * A pasta `css` tem o arquivo `main.css` com a folha de estilos.
 * Dentro da pasta `assets` se encontra a pasta `images`.
+
+## Página
+*  https://carlareginam10.github.io/freelancer/
 
 
 
